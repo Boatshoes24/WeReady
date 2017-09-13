@@ -1,7 +1,7 @@
 SLASH_WEREADY_SLASHCMD1 = '/rc'
 SLASH_WEREADY_SLASHCMD2 = '/rdy'
 SLASH_WEREADY_SLASHCMD3 = '/readycheck'
---this is a comment
+
 
 
 SlashCmdList['WEREADY_SLASHCMD'] = function(msg)

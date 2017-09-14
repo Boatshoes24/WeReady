@@ -7,9 +7,9 @@ SLASH_WEREADY_SLASHCMD4 = '/wr'
 
 SlashCmdList['WEREADY_SLASHCMD'] = function(msg)
 	
-	local leader = UnitIsGroupLeader("player")
-	local assist = UnitIsGroupAssistant("player")
-	local inGroup = isGroup()
+	  local leader = UnitIsGroupLeader("player")
+	  local assist = UnitIsGroupAssistant("player")
+	  local inGroup = IsInGroup()
 		
 	if inGroup then
 		if (leader or assist) and (msg == SLASH_WEREADY_SLASHCMD1 or SLASH_WEREADY_SLASHCMD2 or SLASH_WEREADY_SLASHCMD3 or SLASH_WEREADY_SLASHCMD4) then 
@@ -17,8 +17,14 @@ SlashCmdList['WEREADY_SLASHCMD'] = function(msg)
 	
 		else
 			print("You do not have lead/assist!")
+			
+		end
 	else
 		print("You are not in a group!")
+		
 	end
+  
+	
+	
 	
 end

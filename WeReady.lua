@@ -13,18 +13,11 @@ SlashCmdList['WEREADY_SLASHCMD'] = function(msg)
 		
 	if inGroup then
 		if (leader or assist) and (msg == SLASH_WEREADY_SLASHCMD1 or SLASH_WEREADY_SLASHCMD2 or SLASH_WEREADY_SLASHCMD3 or SLASH_WEREADY_SLASHCMD4) then 
-			DoReadyCheck()
-	
+			DoReadyCheck()	
 		else
-			print("You do not have lead/assist!")
-			
+			print("You do not have lead/assist!")			
 		end
 	else
-		print("You are not in a group!")
-		
-	end
-  
-	
-	
-	
+		print("You are not in a group!")		
+	end	
 end

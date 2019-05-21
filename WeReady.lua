@@ -1,7 +1,6 @@
 SLASH_WEREADY_SLASHCMD1 = '/rc'
 SLASH_WEREADY_SLASHCMD2 = '/rdy'
-SLASH_WEREADY_SLASHCMD3 = '/readycheck'
-SLASH_WEREADY_SLASHCMD4 = '/wr'
+SLASH_WEREADY_SLASHCMD3 = '/wr'
 
 
 
@@ -12,7 +11,7 @@ SlashCmdList['WEREADY_SLASHCMD'] = function(msg)
 	  local inGroup = IsInGroup()
 		
 	if inGroup then
-		if (leader or assist) and (msg == SLASH_WEREADY_SLASHCMD1 or SLASH_WEREADY_SLASHCMD2 or SLASH_WEREADY_SLASHCMD3 or SLASH_WEREADY_SLASHCMD4) then 
+		if (leader or assist) and (msg == SLASH_WEREADY_SLASHCMD1 or msg == SLASH_WEREADY_SLASHCMD2 or msg == SLASH_WEREADY_SLASHCMD3) then 
 			DoReadyCheck()	
 		else
 			print("You do not have lead or assist!")			

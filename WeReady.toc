@@ -1,7 +1,7 @@
 ## Interface: 80100
 ## Title: |cFF6DE8E6We Ready|r - v1.0
 ## Version: release 1.0
-## Notes: Type /wr, /rc, /rdy, /readycheck to perform a ready check. Will also inform if you are not lead/assist!
+## Notes: Type /wr, /rc, or /rdy to perform a ready check. Will also inform if you are not lead or assist!
 ## Author: Boatshoes24
 ## DefaultState: enabled
 

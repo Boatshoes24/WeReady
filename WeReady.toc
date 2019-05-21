@@ -1,4 +1,4 @@
-## Interface: 70300
+## Interface: 80100
 ## Title: |cFF6DE8E6We Ready|r - v1.0
 ## Version: release 1.0
 ## Notes: Type /rc, /rdy, /readycheck to perform a ready check if you are group lead or assist. Will also inform if you are not lead/assist!
